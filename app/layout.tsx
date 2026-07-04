@@ -10,8 +10,8 @@ const openSans = Open_Sans({
 });
 
 export const metadata: Metadata = {
-    title: "Kagan Kiesel"
-    description: personal site
+    title: "Kagan Kiesel",
+    description: "personal site"
 };
 
 export default function RootLayout({
