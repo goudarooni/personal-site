@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
+import { Red_Hat_Mono } from "next/font/google";
 import "./globals.css";
 
-const openSans = Open_Sans({
+const redHatMono = Red_Hat_Mono({
     subsets: ["latin"],
     weight: ["400", "700"],
     display: "swap",
-    variable: "--font-open-sans"
+    variable: "--font-red-hat-mono"
 });
 
 export const metadata: Metadata = {
@@ -20,7 +20,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en" className={openSans.variable}>
+        <html lang="en" className={redHatMono.variable}>
             <body>{children}</body>
         </html>
     );
