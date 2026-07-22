@@ -8,18 +8,8 @@ export default function Home() {
           <li>
             <a href="mailto:kagan@kagankiesel.com">Email</a>
           </li>
-          <li>
-            <a
-              href="https://www.youtube.com/@kagankiesel"
-              target="_blank"
-              rel="noreferrer"
-            >
-              YouTube
-            </a>
-          </li>
         </ul>
       </div>
-
       <figure className="home__photo-wrap">
         <img className="home__photo" src="/site.jpg" alt="Kagan Kiesel" />
         <figcaption className="home__caption">

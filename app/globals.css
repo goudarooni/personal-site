@@ -1,7 +1,7 @@
 :root {
-  --bg: #f2f2ee;
-  --fg: #000000;
-  --muted: #002fa7;
+  --bg: #002fa7;
+  --fg: #f9faac;
+  --muted: #f9faac;
 }
 
 * {
