@@ -6,7 +6,7 @@ export default function Home() {
 
         <ul className="home__links">
           <li>
-            <a href="mailto:kagan@kagankiesel.com">Email</a>
+            <a href="mailto:kagan@kagan.ooo">Email</a>
           </li>
         </ul>
       </div>
