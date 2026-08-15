@@ -3,7 +3,6 @@ export default function Home() {
     <main className="home">
       <div className="home__main">
         <h1 className="home__name">kagan kiesel</h1>
-        <p className="home__location">chicago</p>
 
         <ul className="home__links">
           <li>
