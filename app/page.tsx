@@ -17,7 +17,7 @@ export default function Home() {
                   <a href="https://www.youtube.com/@kagankiesel">youtube</a>
                 </li>
                 <li>
-                  <a href="https://www.substack.com/kagankiesel">journal</a>
+                  <a href="https://www.kagankiesel.substack.com">journal</a>
                 </li>
                 <li>
                   <details className="home__menu">
