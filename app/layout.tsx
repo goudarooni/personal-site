@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Red_Hat_Mono } from "next/font/google";
+import { Newsreader } from "next/font/google";
 import "./globals.css";
 
-const redHatMono = Red_Hat_Mono({
+const newsreader = newsreader({
     subsets: ["latin"],
     weight: ["400", "700"],
     display: "swap",
-    variable: "--font-red-hat-mono"
+    variable: "--newsreader"
 });
 
 export const metadata: Metadata = {
@@ -20,7 +20,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en" className={redHatMono.variable}>
+        <html lang="en" className={newsreader.variable}>
             <body>{children}</body>
         </html>
     );
