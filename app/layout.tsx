@@ -5,7 +5,7 @@ import "./globals.css";
 const newsreader = Newsreader({
     subsets: ["latin"],
     display: "swap",
-    variable: "--newsreader"
+    variable: "--font-newsreader"
 });
 
 export const metadata: Metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en" className={Newsreader.variable}>
+        <html lang="en" className={newsreader.variable}>
             <body>{children}</body>
         </html>
     );
