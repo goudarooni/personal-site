@@ -41,18 +41,15 @@ a:hover {
 }
 
 .home__main {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  max-width: 360px;
-  justify-self: start;
+  text-align: center;
 }
 
 .home__name {
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: 400;
+  line-height: 1.1;
   margin: 0;
+  letter-spacing: -0.01em;
 }
 
 .home__links {
