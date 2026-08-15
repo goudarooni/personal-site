@@ -2,8 +2,8 @@ export default function Home() {
   return (
     <main className="home">
       <div className="home__main">
-        <h1 className="home__name">Kagan Kiesel</h1>
-        <p className="home__location">Chicago, IL</p>
+        <h1 className="home__name">kagan kiesel</h1>
+        <p className="home__location">chicago</p>
 
         <ul className="home__links">
           <li>
@@ -12,24 +12,24 @@ export default function Home() {
 
           <li>
             <details className="home__menu">
-              <summary>Projects</summary>
+              <summary>projects</summary>
               <ul className="home__submenu">
                 <li>
-                  <a href="https://www.youtube.com/@kagankiesel">YouTube</a>
+                  <a href="https://www.youtube.com/@kagankiesel">youtube</a>
                 </li>
                 <li>
-                  <a href="https://www.substack.com/kagankiesel">Journal</a>
+                  <a href="https://www.substack.com/kagankiesel">journal</a>
                 </li>
                 <li>
                   <details className="home__menu">
-                    <summary>Hopper</summary>
+                    <summary>hopper</summary>
                     <ul className="home__submenu">
                       <li>
-                        <a href="https://hopper.kagan.ooo">Hopper</a>
+                        <a href="https://hopper.kagan.ooo">hopper</a>
                       </li>
                       <li>
                         <a href="https://github.com/goudarooni/hopper-sun">
-                          GitHub Repository
+                          github
                         </a>
                       </li>
                     </ul>
