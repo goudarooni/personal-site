@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { Newsreader } from "next/font/google";
 import "./globals.css";
 
-const newsreader = newsreader({
+const newsreader = Newsreader({
     subsets: ["latin"],
-    weight: ["400", "700"],
     display: "swap",
     variable: "--newsreader"
 });
@@ -20,7 +19,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en" className={newsreader.variable}>
+        <html lang="en" className={Newsreader.variable}>
             <body>{children}</body>
         </html>
     );
