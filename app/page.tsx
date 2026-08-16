@@ -18,7 +18,7 @@ export default function Home() {
           <p className="home__email">
             <a href="mailto:kagan@kagan.ooo">kagan@kagan.ooo</a>
           </p>
-          <p className="home__location">Chicago,IL</p>
+          <p className="home__location">Chicago, IL</p>
 
           <p className="section-label">Projects</p>
           <ul className="list">
