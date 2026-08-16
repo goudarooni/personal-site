@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Newsreader } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const newsreader = Newsreader({
-    subsets: ["latin"],
+const xenon = localFont({
+    src: "../public/fonts/Monaspace Xenon Var.woff2",
+    variable: "--font-xenon",
     display: "swap",
-    variable: "--font-newsreader"
+    weight: "200 800",
 });
 
 export const metadata: Metadata = {
@@ -19,7 +20,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en" className={newsreader.variable}>
+        <html lang="en" className={xenon.variable}>
             <body>{children}</body>
         </html>
     );
