@@ -3,14 +3,14 @@ export default function Home() {
     <>
     <video
       className="bg-video"
-      src="/background.mp4"
+      src="/bg.mp4"
       autoPlay
       muted
       loop
       playsInline
       aria-hidden="true"
      />
-     
+
     <main className="home">
       <div className="home__main">
         <h1 className="home__name">(under construction)</h1>
